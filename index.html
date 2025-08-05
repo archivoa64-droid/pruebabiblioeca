@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Biblioteca Digital</title>
+  <meta name="author" content="CRISTIAN GABRIEL RODRIGUEZ ORTEGA">
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    h1 {
+      text-align: center;
+    }
+    .bloques {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .tema {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .tema:hover {
+      transform: scale(1.05);
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Mi Biblioteca Digital</h1>
+
+  <div class="bloques">
+    <a href="temas/educacion-financiera.html">
+      <div class="tema">
+        <h2>💰 Educación Financiera</h2>
+        <p>Aprende a manejar tu dinero con inteligencia.</p>
+      </div>
+    </a>
+
+    <a href="temas/psicologia.html">
+      <div class="tema">
+        <h2>🧠 Psicología</h2>
+        <p>Explora la mente y el comportamiento humano.</p>
+      </div>
+    </a>
+
+    <a href="temas/emprendimiento.html">
+      <div class="tema">
+        <h2>🚀 Emprendimiento</h2>
+        <p>Recursos para crear y hacer crecer tu negocio.</p>
+      </div>
+    </a>
+
+    <a href="temas/bienestar.html">
+      <div class="tema">
+        <h2>💪 Bienestar Físico y Mental</h2>
+        <p>Mejora tu salud integral y calidad de vida.</p>
+      </div>
+    </a>
+
+    <a href="temas/tecnologia.html">
+      <div class="tema">
+        <h2>💻 Tecnología</h2>
+        <p>Conoce herramientas digitales y nuevas tendencias.</p>
+      </div>
+    </a>
+
+    <a href="temas/relaciones.html">
+      <div class="tema">
+        <h2>🤝 Relaciones y Redes</h2>
+        <p>Aprende a conectar mejor con los demás.</p>
+      </div>
+    </a>
+
+    <a href="temas/proposito.html">
+      <div class="tema">
+        <h2>🌟 Propósito de Vida</h2>
+        <p>Encuentra dirección, significado y motivación.</p>
+      </div>
+    </a>
+  </div>
+
+  <footer>
+    Página creada por <strong>CRISTIAN GABRIEL RODRIGUEZ ORTEGA</strong> &copy; 2025
+  </footer>
+</body>
+</html>
